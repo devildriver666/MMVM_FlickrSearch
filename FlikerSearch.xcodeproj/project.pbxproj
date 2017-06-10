@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3961B55B1EEC626D00B25E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B55A1EEC626D00B25E15 /* AppDelegate.swift */; };
+		3961B55D1EEC626D00B25E15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B55C1EEC626D00B25E15 /* ViewController.swift */; };
+		3961B5601EEC626D00B25E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3961B55E1EEC626D00B25E15 /* Main.storyboard */; };
+		3961B5621EEC626D00B25E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3961B5611EEC626D00B25E15 /* Assets.xcassets */; };
+		3961B5651EEC626D00B25E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3961B5631EEC626D00B25E15 /* LaunchScreen.storyboard */; };
+		3961B5701EEC626D00B25E15 /* FlikerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961B56F1EEC626D00B25E15 /* FlikerSearchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3961B56C1EEC626D00B25E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3961B54F1EEC626D00B25E15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3961B5561EEC626D00B25E15;
+			remoteInfo = FlikerSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3961B5571EEC626D00B25E15 /* FlikerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlikerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3961B55A1EEC626D00B25E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3961B55C1EEC626D00B25E15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3961B55F1EEC626D00B25E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3961B5611EEC626D00B25E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3961B5641EEC626D00B25E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3961B5661EEC626D00B25E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3961B56B1EEC626D00B25E15 /* FlikerSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlikerSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3961B56F1EEC626D00B25E15 /* FlikerSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlikerSearchTests.swift; sourceTree = "<group>"; };
+		3961B5711EEC626D00B25E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3961B5541EEC626D00B25E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3961B5681EEC626D00B25E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3961B54E1EEC626D00B25E15 = {
+			isa = PBXGroup;
+			children = (
+				3961B5591EEC626D00B25E15 /* FlikerSearch */,
+				3961B56E1EEC626D00B25E15 /* FlikerSearchTests */,
+				3961B5581EEC626D00B25E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3961B5581EEC626D00B25E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3961B5571EEC626D00B25E15 /* FlikerSearch.app */,
+				3961B56B1EEC626D00B25E15 /* FlikerSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3961B5591EEC626D00B25E15 /* FlikerSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3961B55A1EEC626D00B25E15 /* AppDelegate.swift */,
+				3961B55C1EEC626D00B25E15 /* ViewController.swift */,
+				3961B55E1EEC626D00B25E15 /* Main.storyboard */,
+				3961B5611EEC626D00B25E15 /* Assets.xcassets */,
+				3961B5631EEC626D00B25E15 /* LaunchScreen.storyboard */,
+				3961B5661EEC626D00B25E15 /* Info.plist */,
+			);
+			path = FlikerSearch;
+			sourceTree = "<group>";
+		};
+		3961B56E1EEC626D00B25E15 /* FlikerSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3961B56F1EEC626D00B25E15 /* FlikerSearchTests.swift */,
+				3961B5711EEC626D00B25E15 /* Info.plist */,
+			);
+			path = FlikerSearchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3961B5561EEC626D00B25E15 /* FlikerSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3961B5741EEC626D00B25E15 /* Build configuration list for PBXNativeTarget "FlikerSearch" */;
+			buildPhases = (
+				3961B5531EEC626D00B25E15 /* Sources */,
+				3961B5541EEC626D00B25E15 /* Frameworks */,
+				3961B5551EEC626D00B25E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlikerSearch;
+			productName = FlikerSearch;
+			productReference = 3961B5571EEC626D00B25E15 /* FlikerSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3961B56A1EEC626D00B25E15 /* FlikerSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3961B5771EEC626D00B25E15 /* Build configuration list for PBXNativeTarget "FlikerSearchTests" */;
+			buildPhases = (
+				3961B5671EEC626D00B25E15 /* Sources */,
+				3961B5681EEC626D00B25E15 /* Frameworks */,
+				3961B5691EEC626D00B25E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3961B56D1EEC626D00B25E15 /* PBXTargetDependency */,
+			);
+			name = FlikerSearchTests;
+			productName = FlikerSearchTests;
+			productReference = 3961B56B1EEC626D00B25E15 /* FlikerSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3961B54F1EEC626D00B25E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Abhijeet;
+				TargetAttributes = {
+					3961B5561EEC626D00B25E15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					3961B56A1EEC626D00B25E15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3961B5561EEC626D00B25E15;
+					};
+				};
+			};
+			buildConfigurationList = 3961B5521EEC626D00B25E15 /* Build configuration list for PBXProject "FlikerSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3961B54E1EEC626D00B25E15;
+			productRefGroup = 3961B5581EEC626D00B25E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3961B5561EEC626D00B25E15 /* FlikerSearch */,
+				3961B56A1EEC626D00B25E15 /* FlikerSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3961B5551EEC626D00B25E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3961B5651EEC626D00B25E15 /* LaunchScreen.storyboard in Resources */,
+				3961B5621EEC626D00B25E15 /* Assets.xcassets in Resources */,
+				3961B5601EEC626D00B25E15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3961B5691EEC626D00B25E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3961B5531EEC626D00B25E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3961B55D1EEC626D00B25E15 /* ViewController.swift in Sources */,
+				3961B55B1EEC626D00B25E15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3961B5671EEC626D00B25E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3961B5701EEC626D00B25E15 /* FlikerSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3961B56D1EEC626D00B25E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3961B5561EEC626D00B25E15 /* FlikerSearch */;
+			targetProxy = 3961B56C1EEC626D00B25E15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3961B55E1EEC626D00B25E15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3961B55F1EEC626D00B25E15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3961B5631EEC626D00B25E15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3961B5641EEC626D00B25E15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3961B5721EEC626D00B25E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3961B5731EEC626D00B25E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3961B5751EEC626D00B25E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlikerSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.FlikerSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3961B5761EEC626D00B25E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlikerSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.FlikerSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3961B5781EEC626D00B25E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlikerSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.FlikerSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlikerSearch.app/FlikerSearch";
+			};
+			name = Debug;
+		};
+		3961B5791EEC626D00B25E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlikerSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.FlikerSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlikerSearch.app/FlikerSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3961B5521EEC626D00B25E15 /* Build configuration list for PBXProject "FlikerSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3961B5721EEC626D00B25E15 /* Debug */,
+				3961B5731EEC626D00B25E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3961B5741EEC626D00B25E15 /* Build configuration list for PBXNativeTarget "FlikerSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3961B5751EEC626D00B25E15 /* Debug */,
+				3961B5761EEC626D00B25E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3961B5771EEC626D00B25E15 /* Build configuration list for PBXNativeTarget "FlikerSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3961B5781EEC626D00B25E15 /* Debug */,
+				3961B5791EEC626D00B25E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3961B54F1EEC626D00B25E15 /* Project object */;
+}
