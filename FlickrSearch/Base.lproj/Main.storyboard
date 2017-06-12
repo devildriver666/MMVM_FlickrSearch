@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="g7a-VN-0o6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Flicker Search-->
+        <scene sceneID="PGV-Nx-mQA">
+            <objects>
+                <viewController id="p7g-KN-CMu" customClass="FlickrSearchViewController" customModule="FlikerSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WxE-cM-WOL"/>
+                        <viewControllerLayoutGuide type="bottom" id="xmc-Y8-7S1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NCw-w0-nMR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="NV5-sR-FrI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="p7g-KN-CMu" id="y7k-v5-tRD"/>
+                                </connections>
+                            </searchBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="agZ-y8-7aR">
+                                <rect key="frame" x="0.0" y="108" width="375" height="559"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ybg-Uo-Pas">
+                                    <size key="itemSize" width="118" height="116"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="8" minY="8" maxX="8" maxY="8"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="1TS-D7-V6k" customClass="CustomCollectionViewCell" customModule="FlikerSearch" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="118" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="118" height="116"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cJ1-cx-1dn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="118" height="116"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="cJ1-cx-1dn" secondAttribute="bottom" id="a0k-MC-EN8"/>
+                                            <constraint firstItem="cJ1-cx-1dn" firstAttribute="top" secondItem="1TS-D7-V6k" secondAttribute="top" id="i7y-4k-s66"/>
+                                            <constraint firstItem="cJ1-cx-1dn" firstAttribute="leading" secondItem="1TS-D7-V6k" secondAttribute="leading" id="mXe-I4-DvE"/>
+                                            <constraint firstAttribute="trailing" secondItem="cJ1-cx-1dn" secondAttribute="trailing" id="wKe-Sk-z9U"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="cJ1-cx-1dn" id="9uB-5y-hPK"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="p7g-KN-CMu" id="BPj-KW-QJb"/>
+                                    <outlet property="delegate" destination="p7g-KN-CMu" id="OiB-DD-Awy"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="agZ-y8-7aR" firstAttribute="top" secondItem="NV5-sR-FrI" secondAttribute="bottom" id="7FI-UB-Yx4"/>
+                            <constraint firstItem="agZ-y8-7aR" firstAttribute="top" secondItem="NV5-sR-FrI" secondAttribute="bottom" id="Ash-nE-WFX"/>
+                            <constraint firstAttribute="trailing" secondItem="agZ-y8-7aR" secondAttribute="trailing" id="Mik-QB-3YO"/>
+                            <constraint firstItem="xmc-Y8-7S1" firstAttribute="top" secondItem="agZ-y8-7aR" secondAttribute="bottom" id="Ysy-yn-pr1"/>
+                            <constraint firstItem="agZ-y8-7aR" firstAttribute="leading" secondItem="NCw-w0-nMR" secondAttribute="leading" id="hG6-wj-6ck"/>
+                            <constraint firstItem="NV5-sR-FrI" firstAttribute="top" secondItem="WxE-cM-WOL" secondAttribute="bottom" id="j1N-5V-KDV"/>
+                            <constraint firstItem="NV5-sR-FrI" firstAttribute="leading" secondItem="NCw-w0-nMR" secondAttribute="leading" id="p6z-dd-Lmu"/>
+                            <constraint firstAttribute="trailing" secondItem="NV5-sR-FrI" secondAttribute="trailing" id="sDM-96-aJI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Flicker Search" id="wOC-Oz-Zp5"/>
+                    <connections>
+                        <outlet property="collectionView" destination="agZ-y8-7aR" id="qrB-gJ-yVS"/>
+                        <outlet property="searchBar" destination="NV5-sR-FrI" id="0yq-8y-8LN"/>
+                        <outlet property="viewModel" destination="c9X-Fx-BIi" id="pXN-Ca-J0Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hKc-Vj-c6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="z5A-jt-gpC" customClass="FlickrNetworkingClient" customModule="FlikerSearch" customModuleProvider="target"/>
+                <customObject id="c9X-Fx-BIi" customClass="FlickrSearchViewModel" customModule="FlikerSearch" customModuleProvider="target">
+                    <connections>
+                        <outlet property="flickerClient" destination="z5A-jt-gpC" id="cW6-2j-rlE"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="725.60000000000002" y="-57.121439280359823"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sDc-hO-faH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g7a-VN-0o6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fbz-9w-sUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="p7g-KN-CMu" kind="relationship" relationship="rootViewController" id="YHo-6j-T4D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4XJ-vi-lAd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-213.59999999999999" y="-57.121439280359823"/>
+        </scene>
+    </scenes>
+</document>
